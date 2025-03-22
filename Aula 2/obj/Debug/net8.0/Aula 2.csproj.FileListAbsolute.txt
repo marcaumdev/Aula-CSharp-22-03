@@ -12,3 +12,4 @@ C:\Users\Marcos Vinicius\Desktop\Aula 2\Aula 2\obj\Debug\net8.0\refint\Aula 2.dl
 C:\Users\Marcos Vinicius\Desktop\Aula 2\Aula 2\obj\Debug\net8.0\Aula 2.pdb
 C:\Users\Marcos Vinicius\Desktop\Aula 2\Aula 2\obj\Debug\net8.0\Aula 2.genruntimeconfig.cache
 C:\Users\Marcos Vinicius\Desktop\Aula 2\Aula 2\obj\Debug\net8.0\ref\Aula 2.dll
+C:\Users\Marcos Vinicius\Desktop\Aula 2\Aula 2\obj\Debug\net8.0\Aula 2.sourcelink.json

@@ -54,3 +54,16 @@ for(int contador = 0; contador <= 10; contador++)
 {
     Console.WriteLine(contador);
 }
+//Crie um programa que exiba todos os números pares de 0 até 20.
+for(int contador = 0; contador <= 20; contador++)
+{
+    if(contador % 2 == 0)
+    {
+        Console.WriteLine($"O numero {contador} é Par!");
+    }
+}
+
+for(int contador = 0; contador <= 20; contador += 2)
+{
+    Console.WriteLine($"O numero {contador} é Par!");
+}
