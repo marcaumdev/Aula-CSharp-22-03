@@ -45,7 +45,7 @@ do
     }
     else
     {
-        Console.WriteLine("Usário ou senha incorretos!");
+        //Console.WriteLine("Usário ou senha incorretos!");
     }
 } while (!estaLogado);
 
@@ -120,17 +120,51 @@ else
 string[] listaMercado = new string[5];
 //                0   1   2   3   4
 int[] valores = { 10, 20, 30, 40, 50 };
+int[] pares = new int[] { };
 //int[] valores = new int[] { 10, 20, 30, 40, 50 };
+
+List<string> lista;
 
 Console.WriteLine(valores[1]);
 
 for(int i = 0; i < 5; i++)
 {
-    Console.Write($"Digite o item {i}: ");
-    listaMercado[i] = (Console.ReadLine());
+    //Console.Write($"Digite o item {i}: ");
+    //pares.Append(int.Parse(Console.ReadLine()));
 }
 Console.Write("\n");
 for(int i = 0; i < 5; i++)
 {
-    Console.WriteLine($"item {i}: {listaMercado[i]}");
+    //Console.WriteLine($"item {i}: {listaMercado[i]}");
 }
+
+List<int> numeros = new List<int>();
+
+for(int i = 0; i < 10; i++)
+{
+    Console.Write($"Digite o {i + 1}º número: ");
+    numeros.Add(int.Parse(Console.ReadLine()));
+}
+
+//var maiorNumero = 0;
+
+//for (int i = 0; i < numeros.Count; i++)
+//{
+//    if (numeros[i] > maiorNumero)
+//    {
+//        maiorNumero = numeros[i];
+//    }
+//}
+//var menorNumero = maiorNumero;
+//for (int i = 0; i < numeros.Count; i++)
+//{
+//    if (numeros[i] < menorNumero)
+//    {
+//        menorNumero = numeros[i];
+//    }
+//}
+
+//Console.WriteLine($"O menor número é {menorNumero}");
+//Console.WriteLine($"O maior número é {maiorNumero}");
+
+Console.WriteLine($"Maior: {numeros.Max()}, Menor: {numeros.Min()}");
