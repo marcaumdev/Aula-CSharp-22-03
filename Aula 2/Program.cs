@@ -117,7 +117,7 @@ else
 }
 
 //LISTAS
-string[] textos = new string[5];
+string[] listaMercado = new string[5];
 //                0   1   2   3   4
 int[] valores = { 10, 20, 30, 40, 50 };
 //int[] valores = new int[] { 10, 20, 30, 40, 50 };
@@ -126,11 +126,11 @@ Console.WriteLine(valores[1]);
 
 for(int i = 0; i < 5; i++)
 {
-    Console.Write($"Digite o texto {i + 1}: ");
-    textos[i] = (Console.ReadLine());
+    Console.Write($"Digite o item {i}: ");
+    listaMercado[i] = (Console.ReadLine());
 }
-
+Console.Write("\n");
 for(int i = 0; i < 5; i++)
 {
-    Console.WriteLine($"texto {i + 1}: {textos[i]}");
+    Console.WriteLine($"item {i}: {listaMercado[i]}");
 }
