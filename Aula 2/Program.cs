@@ -67,3 +67,20 @@ for(int contador = 0; contador <= 20; contador += 2)
 {
     Console.WriteLine($"O numero {contador} é Par!");
 }
+
+int positivos = 0;
+
+for(int i = 1; i <= 5; i++) 
+{
+    Console.WriteLine($"Digite o {i}º número: ");
+    int numeroColetado = int.Parse(Console.ReadLine());
+    //numeroColetado = Convert.ToInt32(Console.ReadLine());
+
+    if(numeroColetado >= 1)
+    {
+        positivos = positivos + 1;
+        //positivos++;
+    }
+}
+
+Console.WriteLine($"Você digitou {positivos} número positivos!");
